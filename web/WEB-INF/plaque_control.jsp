@@ -206,9 +206,10 @@
 
     </div>
     <div class="col-md-3">
-        <form method="get" action="Dietary_History.php">
+        <s:url var="dietary_history" action="dietary_history" namespace="/navbar"></s:url>
+        <s:a href="%{#dietary_history}">
             <button  class="btn btn-primary"> NEXT</button>
-        </form>
+        </s:a>
     </div>
 </div>
 

@@ -89,9 +89,10 @@
 <br>
 <div class="row">
     <div class="col-md-3">
-        <form method="get" action="Plaque_control&Brushing_Habits.html">
+        <s:url var="plaqueControl" action="plaque_control" namespace="/navbar"></s:url>
+        <s:a  href="%{#plaqueControl}">
             <button  class="btn btn-primary"> BACK</button>
-        </form>
+        </s:a>
     </div>
     <div class="col-md-7">
 
