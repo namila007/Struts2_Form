@@ -8,7 +8,9 @@
 
 <struts>
     <constant name="struts.devMode" value="true" />
+
     <constant name="struts.action.extension" value="html" />
+
     <package name="test2" extends="struts-default">
 
 
