@@ -7,6 +7,7 @@ This is a testing respo to test struts2 mvc intregation with jsp ,spring web dev
 
 ### 2. Add /lib folder for Library 
   * rclick on folder and click on `Add as Library`..
+  * Add tomcat server libraries under External Libraries
 
 ### 3.Setup Tomcat server
   * Open Run Configuration
