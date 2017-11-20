@@ -14,12 +14,12 @@
          userid="${jdbc.username}" password="${jdbc.password}"
          encoding="utf-8" onerror="continue">
 
-    <classpath>
-        <pathelement location="${db.dir}/lib/mysql.jar" />
-    </classpath>
+        <classpath>
+            <pathelement location="${db.dir}/lib/mysql.jar" />
+        </classpath>
 
-    <transaction src="${db.dir}/table/database.sql"/>
-    <transaction src="${db.dir}/table/tbl_user.sql"/>
+        <transaction src="${db.dir}/table/database.sql"/>
+        <transaction src="${db.dir}/table/tbl_user.sql"/>
         <transaction src="${db.dir}/data/userdata.sql"/>
     </sql>
     </target>
