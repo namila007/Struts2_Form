@@ -20,6 +20,7 @@
 
     <transaction src="${db.dir}/table/database.sql"/>
     <transaction src="${db.dir}/table/tbl_user.sql"/>
+        <transaction src="${db.dir}/data/userdata.sql"/>
     </sql>
     </target>
 </project>
