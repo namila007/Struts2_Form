@@ -32,7 +32,7 @@ _____________________________________________________________
 ## Automate Database with ANT
 
 ### 1.Create database 
-   * create a db called 'struts' and transfer all privilage to new user 'struts1' with password 'abc123'
+   * create a db called `struts` and transfer all privilage to new user `struts1` with password `abc123`
 ### 2. Add libraries
    * add  jdbc and mysql lib
 ### 3. Run `build.xml`   
