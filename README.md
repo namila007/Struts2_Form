@@ -4,6 +4,7 @@ This is a testing respo to test struts2 mvc intregation with jsp ,spring web dev
 ## How to run
 
 ### 1.Clone and Open the project using intelliJ
+  * Install plugin Strut2 ![Struts2 Plugin](https://plugins.jetbrains.com/plugin/1698-struts-2)
 
 ### 2. Add /lib folder for Library 
   * rclick on folder and click on `Add as Library`..
