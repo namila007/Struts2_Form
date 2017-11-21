@@ -32,5 +32,15 @@
     <orderEntry type="library" name="Struts 2-2.5.13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.11" level="application_server_libraries" />
     <orderEntry type="library" name="struts2-spring-plugin-2.3.16.1" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.30" level="project" />
+    <orderEntry type="module-library">
+      <library name="mysql">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Database/lib/mysql.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+
+<project name="fleet" default="create database" basedir=".">
+
+
+    <property name="db.dir" value="."/>
+
+    <property file="../src/jdbc.properties"/>
+
+    <target name="create database" description="Creating the database">
+    <sql driver="${jdbc.driverClassName}"
+         url="jdbc:mysql://localhost:3306/?useUnicode=true&amp;characterEncoding=UTF8"
+         userid="${jdbc.username}" password="${jdbc.password}"
+         encoding="utf-8" onerror="continue">
+
+        <classpath>
+            <pathelement location="${db.dir}/lib/mysql.jar" />
+        </classpath>
+
+
+        <transaction src="${db.dir}/table/database.sql"/>
+        <transaction src="${db.dir}/table/tbl_user.sql"/>
+        <transaction src="${db.dir}/data/userdata.sql"/>
+    </sql>
+    </target>
+</project>
