@@ -15,6 +15,7 @@
         <action name="dietary_history" class="com.form.navbar.navbar" method="navigationbar">
             <result name="success">/WEB-INF/dietary_history.jsp</result>
         </action>
-
+<!--actions-->
     </package>
+
 </struts>
