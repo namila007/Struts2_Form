@@ -36,3 +36,9 @@ _____________________________________________________________
 ### 2. Add libraries
    * add  jdbc and mysql lib
 ### 3. Run `build.xml`   
+
+___________________________________
+
+## Mybatis Generator with ANT
+
+### 1. run `build.xml` on root folder
