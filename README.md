@@ -35,7 +35,7 @@ _____________________________________________________________
    * create a db called `struts` and transfer all privilage to new user `struts1` with password `abc123`
 ### 2. Add libraries
    * add  jdbc and mysql lib
-### 3. Run `build.xml`   
+### 3. Run `./databse/build.xml`   
 
 ___________________________________
 
